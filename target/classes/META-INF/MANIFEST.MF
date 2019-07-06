@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-actuator-2.1.5.RELEASE.jar spring-aop-5.1.7.RE
+ LEASE.jar mysql-connector-java-5.1.47.jar spring-boot-starter-thymele
+ af-2.1.5.RELEASE.jar validation-api-2.0.1.Final.jar commons-logging-1
+ .1.1.jar mybatis-plus-3.1.1.jar mybatis-plus-extension-3.1.1.jar slf4
+ j-api-1.7.26.jar netty-common-4.1.36.Final.jar logback-classic-1.2.3.
+ jar spring-boot-starter-logging-2.1.5.RELEASE.jar mybatis-plus-core-3
+ .1.1.jar tomcat-embed-el-9.0.19.jar spring-boot-starter-web-2.1.5.REL
+ EASE.jar mybatis-3.5.1.jar tomcat-embed-core-9.0.19.jar snakeyaml-1.2
+ 3.jar mybatis-spring-2.0.1.jar happy-dns-java-0.1.4.jar jsqlparser-1.
+ 2.jar json-20170516.jar LatencyUtils-2.0.3.jar okio-1.8.0.jar spring-
+ boot-starter-tomcat-2.1.5.RELEASE.jar httpcore-4.4.11.jar spring-boot
+ -starter-jdbc-2.1.5.RELEASE.jar qiniu-java-sdk-7.2.11.jar HdrHistogra
+ m-2.1.9.jar HikariCP-3.2.0.jar jul-to-slf4j-1.7.26.jar attoparser-2.0
+ .5.RELEASE.jar spring-core-5.1.7.RELEASE.jar spring-beans-5.1.7.RELEA
+ SE.jar logback-core-1.2.3.jar thymeleaf-spring5-3.0.11.RELEASE.jar sp
+ ring-webmvc-5.1.7.RELEASE.jar spring-context-5.1.7.RELEASE.jar spring
+ -boot-autoconfigure-2.1.5.RELEASE.jar log4j-api-2.11.2.jar spring-boo
+ t-starter-2.1.5.RELEASE.jar gson-2.6.2.jar netty-resolver-4.1.36.Fina
+ l.jar httpmime-4.5.8.jar netty-buffer-4.1.36.Final.jar lettuce-core-5
+ .1.6.RELEASE.jar reactor-core-3.2.9.RELEASE.jar okhttp-3.3.1.jar spri
+ ng-data-keyvalue-2.1.8.RELEASE.jar spring-data-redis-2.1.8.RELEASE.ja
+ r unbescape-1.1.6.RELEASE.jar spring-jdbc-5.1.7.RELEASE.jar mybatis-p
+ lus-annotation-3.1.1.jar spring-boot-2.1.5.RELEASE.jar spring-boot-st
+ arter-actuator-2.1.5.RELEASE.jar spring-context-support-5.1.7.RELEASE
+ .jar spring-boot-starter-data-redis-2.1.5.RELEASE.jar spring-tx-5.1.7
+ .RELEASE.jar classmate-1.4.0.jar jackson-datatype-jsr310-2.9.8.jar fa
+ stjson-1.2.48.jar spring-jcl-5.1.7.RELEASE.jar jackson-databind-2.9.8
+ .jar spring-expression-5.1.7.RELEASE.jar spring-boot-starter-json-2.1
+ .5.RELEASE.jar jackson-core-2.9.8.jar httpclient-4.5.8.jar netty-hand
+ ler-4.1.36.Final.jar thymeleaf-extras-java8time-3.0.4.RELEASE.jar hib
+ ernate-validator-6.0.16.Final.jar reactive-streams-1.0.2.jar jackson-
+ module-parameter-names-2.9.8.jar micrometer-core-1.1.4.jar qcloudsms-
+ 1.0.6.jar mybatis-plus-boot-starter-3.1.1.jar commons-codec-1.11.jar 
+ spring-oxm-5.1.7.RELEASE.jar netty-transport-4.1.36.Final.jar jboss-l
+ ogging-3.3.2.Final.jar thymeleaf-3.0.11.RELEASE.jar alipay-sdk-java-3
+ .1.0.jar javax.annotation-api-1.3.2.jar tomcat-embed-websocket-9.0.19
+ .jar jackson-datatype-jdk8-2.9.8.jar log4j-to-slf4j-2.11.2.jar spring
+ -data-commons-2.1.8.RELEASE.jar spring-web-5.1.7.RELEASE.jar netty-co
+ dec-4.1.36.Final.jar jackson-annotations-2.9.0.jar spring-boot-actuat
+ or-autoconfigure-2.1.5.RELEASE.jar
+Main-Class: com.health.JojoyiApplication
+

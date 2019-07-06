@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>
+        嘉加益保健
+    </title>
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport"/>
+    <link href="css/TothingWay.css" rel="stylesheet"/>
+    <link href="css/admin.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wrapper">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">
+                                J O J O Y I 后台管理系统
+                            </span>
+                    <span class="icon-bar">
+                            </span>
+                    <span class="icon-bar">
+                            </span>
+                    <span class="icon-bar">
+                            </span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    J O J O Y I 后台管理系统
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a role="button" class="active" href="index.html">
+                                <i class="icon-dashboard">
+                                </i>
+                                本站概况
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a role="button" href="admin-set.html">
+                                <i class="icon-cogs">
+                                </i>
+                                管理员设置
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <a role="button" data-toggle="collapse" data-parent=".side-nav" href="#collapseOne"
+                               aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                <i class="icon-user">
+                                </i>
+                                用户管理
+                                <i class="icon icon-angle-left">
+                                </i>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingOne" aria-expanded="false">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <a href="user-batch-management.html">
+                                            用户批量管理
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent=".side-nav"
+                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="icon-tasks">
+                                </i>
+                                商品管理
+                                <i class="icon icon-angle-left">
+                                </i>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <a href="resource-batch-management.html">
+                                            商品批量管理
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="uploading.html">
+                                            商品上传
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent=".side-nav"
+                               href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="icon-comments-alt">
+                                </i>
+                                在线问答管理
+                                <i class="icon icon-angle-left">
+                                </i>
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFour">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <a href="issues-management.html">
+                                            问题管理
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="answer-management.html">
+                                            回答管理
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            <i class="icon-user">
+                            </i>
+                           <span id="aname"></span>
+                            <span class="caret">
+
+                                    </span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="admin-set.html">
+                                    修改密码
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:exit()">
+                                    退出
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-wrapper">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-3 card">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-tasks"></span>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading" id="total_articles" >456</p>
+                                <p class="announcement-text" id="new_time1">New Mentions!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer announcement-bottom">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                资源总量
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 card">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="icon-comment"></span>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading" id="total_product">456</p>
+                                <p class="announcement-text" id="new_time2">New Mentions!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer announcement-bottom">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                商品总量
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 card">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-comment"></span>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading" id="total_qr">456</p>
+                                <p class="announcement-text" id="new_time3">New Mentions!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer announcement-bottom">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                问答总量
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-3 card">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <p class="announcement-heading" id="total_users"></p>
+                                <p class="announcement-text" id="new_time4">New Mentions!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer announcement-bottom">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                用户总量
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row statistical-graph">
+            <div class="col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <i class="icon-bar-chart">
+                            </i>
+                            一周内的上传下载量
+                        </h3>
+                    </div>
+                    <div class="panel-body pic-container">
+                        <div class="pic">
+                            <div id="line">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-right">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <i class="icon-bar-chart">
+                            </i>
+                            已发布资源所需积分
+                        </h3>
+                    </div>
+                    <div class="panel-body pic-container">
+                        <div class="pic">
+                            <div id="pie1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <i class="icon-bar-chart">
+                            </i>
+                            这里是饼图的标题
+                        </h3>
+                    </div>
+                    <div class="panel-body pic-container">
+                        <div class="pic">
+                            <div id="pie2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/TothingWay.js">
+</script>
+<script src="js/echarts.js">
+</script>
+<script src="js/admin.js">
+</script>
+<script src="js/adminlogin.js"></script>
+</body>
+</html>

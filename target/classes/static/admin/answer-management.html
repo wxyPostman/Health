@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            嘉加益保健
+        </title>
+        <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport"/>
+        <link href="css/TothingWay.css" rel="stylesheet"/>
+        <link href="css/admin.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">
+                                J O J O Y I 后台管理系统
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            J O J O Y I 后台管理系统
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav side-nav">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a role="button" href="index.html">
+                                        <i class="icon-dashboard">
+                                        </i>
+                                        本站概况
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a role="button" href="admin-set.html">
+                                        <i class="icon-cogs">
+                                        </i>
+                                        管理员设置
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <a role="button" data-toggle="collapse" data-parent=".side-nav" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+                                        <i class="icon-user">
+                                        </i>
+                                        用户管理
+                                        <i class="icon icon-angle-left">
+                                        </i>
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+                                    <div class="panel-body">
+                                        <ul>
+                                           <li>
+                                                <a href="user-batch-management.html">
+                                                    用户批量管理
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent=".side-nav" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="icon-tasks">
+                                        </i>
+                                        商品管理
+                                        <i class="icon icon-angle-left">
+                                        </i>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>
+                                                <a href="resource-batch-management.html">
+                                                    商品批量管理
+                                                </a>
+                                            </li>
+
+                                             <li>
+                                                <a href="uploading.html">
+                                                    商品上传
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <a class="collapsed active" role="button" data-toggle="collapse" data-parent=".side-nav" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <i class="icon-comments-alt">
+                                        </i>
+                                        在线问答管理
+                                        <i class="icon icon-angle-down">
+                                        </i>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <ul>
+                                             <li>
+                                                <a href="issues-management.html">
+                                                    问题管理
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="answer-management.html">
+                                                    回答管理
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                   aria-expanded="false">
+                                    <i class="icon-user">
+                                    </i>
+                                    <span id="aname"></span>
+                                    <span class="caret">
+
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="admin-set.html">
+                                            修改密码
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:exit()">
+                                            退出
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="page-wrapper">
+                <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#content1" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
+                            已发布回答
+                        </a>
+                    </li>
+
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="content1" aria-labelledby="home-tab">
+                        <div class="management-content">
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <div class="panel-heading">
+                                    这里是回答的概述
+                                </div>
+                                <!-- Table -->
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    发布人
+                                                </th>
+                                                <th>
+                                                    发布时间
+                                                </th>
+                                                <th>
+                                                    内容
+                                                </th>
+                                                <th>
+                                                    操作
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="reply_all">
+                                            <tr>
+                                                <td>
+                                                    王炜
+                                                </td>
+                                                <td>
+                                                    2016-7-11
+                                                </td>
+                                                <td>
+                                                   啊发发旮都是
+                                                </td>
+                                                <td>
+                                                    <button>删除</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="js/TothingWay.js">
+        </script>
+
+        <script src="js/adminlogin.js"></script>
+    </body>
+</html>
